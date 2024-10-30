@@ -5,56 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Variant 4</title>
 
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-        }
-
-        .centered-form {
-            width: 50%;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-
-        .valid {
-            border: 2px solid green;
-        }
-
-        .invalid {
-            border: 2px solid red;
-        }
-
-        h1 {
-            color: #333;
-            text-align: center;
-        }
-
-        .float-left {
-            float: left;
-            margin-right: 10px;
-        }
-
-        .nav-item {
-            margin: 5px;
-            display: inline-block;
-        }
-
-        .result {
-            margin-top: 20px;
-            padding: 10px;
-            background-color: #e0e0e0;
-            border-radius: 5px;
-        }
-    </style>
-
+    <!-- Подключение файла стилей -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -66,14 +17,14 @@
     <img src="picture.jpg" alt="Example Image" class="float-left" style="width: 150px;">
     <p>This text wraps around the image.</p>
 
-    <!-- Навігація з використанням float -->
+    <!-- Навигация с использованием float -->
     <nav>
         <a href="#" class="nav-item">Home</a>
         <a href="#" class="nav-item">About</a>
         <a href="#" class="nav-item">Contact</a>
     </nav>
 
-    <!-- Форма реєстрації користувача -->
+    <!-- Форма регистрации пользователя -->
     <form class="centered-form" id="registerForm">
         <label for="username">Username:</label>
         <input type="text" id="username" name="username" required class="input-field">
@@ -87,7 +38,7 @@
         <button type="submit">Register</button>
     </form>
 
-    <!-- Блок для вывода введённых данных -->
+    <!-- Блок для вывода введенных данных -->
     <div id="result" class="result"></div>
 
     <script>
